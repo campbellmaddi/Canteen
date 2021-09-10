@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+
+h1 {
+
+    color: #046494;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 90px;
+}
+
+body {
+    background-color: #E7F6F9;
+}
+
+h2 {
+
+    color: #046494;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    opacity: 0.7;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E7F6F9;;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #3A353A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #D5D5D5;
+}
+
+p {
+    text-align: left;
+    font-family: 'Markazi Text', serif;
+    color: #3A353A;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    background-color: #E7F6F9;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Markazi Text', serif;
+    color: #3A353A;
+    font-size: 20px;
+
+
+}
+
+select{
+    background-color: #E7F6F9;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #3A353A;
+    font-family: 'Markazi Text', serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    color: #3A353A;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+
+}
+
+a{
+    font-family: 'Markazi Text', serif;
+    color: #3A353A;
+    font-size: 30px;
+}
+
+#logo {
+    position: relative;
+}
+#logo img {
+    position: absolute;
+    bottom: 60px;
+    right: 15px;
+}
+
+
+.wgc {
+    position: absolute;
+    bottom: 100px;
+    right: 225px;
+
+
+}
+
+.specials {
+    color: black;
+    border: 3px solid #847c81;
+    display: inline-block;
+    transition-duration: 0.4s;
+    text-align: center;
+    padding: 10px 10px;
+    alignment: center;
+    ;
+
+
+}
+
+.specials:hover {
+    background-color: #B6DDE5;
+    color: white;
+}
+
+
+table, th, td {
+    border: 3px solid #847c81;
+
+}
+table {
+    width: 100%;
+}
+.wgc {
+    float: left;
+}
