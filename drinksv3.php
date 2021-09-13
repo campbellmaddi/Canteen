@@ -128,7 +128,7 @@ else {
         <h2> Drinks Menu </h2>
         <h5>Sort By:</h5>
 
-        <form action="drinksv1.php" method="post" class="sort">
+        <form action="drinksv1.php" method="post" class="sort_drinks">
             <input type="submit" name="ASC" value="Cost: Low-High"><br><br>
             <input type="submit" name="DESC" value="Cost: High-Low"><br><br>
             <table>
