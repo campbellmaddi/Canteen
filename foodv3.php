@@ -131,7 +131,7 @@ else {
         ?>
         <h2> Food Menu </h2>
         <h5>Sort By:</h5>
-        <form action="foodsv1.php" method="post" class="sort">
+        <form action="foodsv1.php" method="post" class="sort_food">
             <input type="submit" name="ASC" value="Cost: Low-High"><br><br>
             <input type="submit" name="DESC" value="Cost: High-Low"><br><br>
             <table>
