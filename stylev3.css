@@ -187,7 +187,7 @@ select[id=drinks] {
 
 .wgc {
     position: absolute;
-    bottom: 175px;
+    bottom: 95px;
     right: 100px;
 
 
@@ -197,7 +197,7 @@ select[id=drinks] {
     color: black;
     border: 3px solid #847c81;
     display: inline-block;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
     text-align: center;
     padding: 10px 10px;
     alignment: center;
@@ -209,11 +209,11 @@ select[id=drinks] {
 }
 
 .specials:hover {
-    background-color: #B6DDE5;
+    background-color: #D4EBEF;
     color: white;
 }
 
-.sort {
+.sort_food {
     color: black;
     display: inline-block;
     transition-duration: 0.4s;
@@ -226,6 +226,21 @@ select[id=drinks] {
     margin-right: 10px;
     margin-left: 585px;
 }
+
+.sort_drinks {
+    color: black;
+    display: inline-block;
+    transition-duration: 0.4s;
+    text-align: center;
+    padding: 10px 10px;
+    alignment: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 600px;
+}
+
 
 table, th, td {
     border: 2px solid #847c81;
