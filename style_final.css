@@ -1,0 +1,227 @@
+/* Imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+/* Background colour for all pages */
+body {
+    background-color: #E7F6F9;
+}
+
+/* Main headings styling */
+h1 {
+    color: #046494;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 90px;
+    text-align: center;
+}
+
+/* Headings for food, drinks and specials page styling */
+h2 {
+    color: #56869D;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* Sub headings for index page styling */
+h3 {
+    color: #56869D;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/* Heading for specials link on index page styling */
+h4 {
+    color: #56869D;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: left;
+}
+/* Heading for drinks and food menu styling */
+h5 {
+    color: #56869D;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Sub heading for drink and food menu styling */
+h6 {
+    color: #046494;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    margin-left: 25px;
+    opacity: 0.7;
+    text-align: left;
+}
+
+/* Body text for all pages styling */
+p {
+    color: #3A353A;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Logo on all pages positioning */
+#logo {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+/* WGC image on home page positioning */
+#wgc {
+    position: fixed;
+    bottom: 85px;
+    right: 100px;
+}
+
+/* Navigation bar styling for all pages */
+ul {
+    background-color: #E7F6F9;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Navigation bar text styling for all pages */
+li a {
+    color: #3A353A;
+    font-family: 'Markazi Text', serif;
+    font-size: 30px;
+    float: left;
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+/* Navigation bar hover styling for all pages */
+li a:hover {
+    background-color: #D5D5D5;
+}
+
+/* Colour and font for link to specials page on index page */
+.click {
+    color: #65ACBC;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+}
+
+/* Index page drop down menus positioning */
+.home_info {
+    margin-left: 210px;
+}
+
+/* Drop down menu styling for all pages */
+select{
+    background-color: #A3D8E3;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #046494;
+    color: #3A353A;
+    cursor: pointer;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    padding: 6px;
+}
+
+/* Buttons for all pages styling */
+input[type=submit] {
+    background-color: #A3D8E3;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    font-family: 'Markazi Text', serif;
+    color: #3A353A;
+    font-size: 20px;
+}
+
+/* Search bar margins for drinks and food page */
+input[name=search] {
+    margin-left: 585px;
+}
+
+/* Drop down menu margin for drinks page */
+select[id=drink] {
+    margin-left: 600px;
+}
+
+/* Drop down menu margin for food page */
+select[id=food] {
+    margin-left: 585px;
+}
+
+/* Search bar styling */
+.search_bar {
+    background-color: #A3D8E3;
+    border-style: solid;
+    border-color: #046494;
+    border-radius: 4px;
+    color: #3A353A;
+    cursor: pointer;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    padding: 4px;
+}
+
+/* Food and drinks buttons styling */
+.sort_buttons {
+    color: black;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    margin-left: 75px;
+    margin-top: -55px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/* Specials buttons styling */
+.specials {
+    background-color: #D4EBEF;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 650px;
+    padding: 20px 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+/* Table for food and drinks menu layout */
+.sort_tables {
+    float: right;
+    margin-right: 50px;
+    width: 75%;
+}
+
+/* Table for specials menu width */
+.specials_table {
+    width: 100%;
+}
+
+/* Table and columns for all tables styling */
+table, td {
+    border: solid 2px #847c81;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Table header for all tables styling */
+th {
+    background-color: #56869D;
+    color: white;
+    padding: 5px;
+
+}
