@@ -13,7 +13,7 @@ if(isset($_GET['drink'])){
     $id = 1;
 }
 
-/*Query for drinks information, to retrieve DItem, DCalories and DStock from drinks table*/
+/*Query for drinks information, to retrieve DItem, DDescription, DCalories and DStock from drinks table*/
 $this_drinks_query = "SELECT DItem, DDescription, DCalories, DCost, DStock FROM drinks WHERE DrinkID = '" . $id . "'";
 $this_drinks_result = mysqli_query($con, $this_drinks_query);
 $this_drinks_record = mysqli_fetch_assoc($this_drinks_result);
