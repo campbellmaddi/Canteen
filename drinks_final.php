@@ -14,7 +14,7 @@ if(isset($_GET['drink'])){
 }
 
 /*Query for drinks information, to retrieve DItem, DCalories and DStock from drinks table*/
-$this_drinks_query = "SELECT DItem, DCalories, DCost, DStock FROM drinks WHERE DrinkID = '" . $id . "'";
+$this_drinks_query = "SELECT DItem, DDescription, DCalories, DCost, DStock FROM drinks WHERE DrinkID = '" . $id . "'";
 $this_drinks_result = mysqli_query($con, $this_drinks_query);
 $this_drinks_record = mysqli_fetch_assoc($this_drinks_result);
 
@@ -112,6 +112,7 @@ else {
         <?php
         /*Echoing out drinks information A-Z*/
         echo "<p> Drink Name: " . $this_drinks_record['DItem'] . "<br>";
+        echo "<p> Description: " . $this_drinks_record['DDescription'] . "<br>";
         echo "<p> Calories: " . $this_drinks_record['DCalories'] . "<br>";
         echo "<p> Cost: " . $this_drinks_record['DCost'] . "<br>";
         echo "<p> Stock: " . $this_drinks_record['DStock'] . "<br>";
