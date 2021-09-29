@@ -14,8 +14,8 @@ if(isset($_GET['food'])){
     $id = 1;
 }
 
-/*Query for food item information, to retrieve FItem, FCalories and FStock from food table*/
-$this_foods_query = "SELECT FItem, FCalories, FCost, FStock FROM food WHERE FoodID = '" . $id . "'";
+/*Query for food item information, to retrieve FItem, FDescription, FCalories and FStock from food table*/
+$this_foods_query = "SELECT FItem, FDescription, FCalories, FCost, FStock FROM food WHERE FoodID = '" . $id . "'";
 $this_foods_result = mysqli_query($con, $this_foods_query);
 $this_foods_record = mysqli_fetch_assoc($this_foods_result);
 
@@ -113,6 +113,7 @@ else {
         <?php
             /*Echoing out food information A-Z*/
             echo "<p> Item Name: " . $this_foods_record['FItem'] . "<br>";
+            echo "<p> Description: " . $this_foods_record['FDescription'] . "<br>";
             echo "<p> Calories: " . $this_foods_record['FCalories'] . "<br>";
             echo "<p> Cost: " . $this_foods_record['FCost'] . "<br>";
             echo "<p> Stock: " . $this_foods_record['FStock'] . "<br>";
